@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E56405C41747DA140000F28A /* HGPfad.m in Sources */ = {isa = PBXBuildFile; fileRef = E56405C31747DA140000F28A /* HGPfad.m */; };
 		E5E71A6C1734171100F3FDBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E71A6B1734171100F3FDBE /* UIKit.framework */; };
 		E5E71A6E1734171100F3FDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E71A6D1734171100F3FDBE /* Foundation.framework */; };
 		E5E71A701734171100F3FDBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E71A6F1734171100F3FDBE /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E56405C21747DA140000F28A /* HGPfad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPfad.h; sourceTree = "<group>"; };
+		E56405C31747DA140000F28A /* HGPfad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPfad.m; sourceTree = "<group>"; };
 		E5E71A681734171100F3FDBE /* MalVersuch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MalVersuch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E71A6B1734171100F3FDBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5E71A6D1734171100F3FDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 			children = (
 				E5E71A7A1734171100F3FDBE /* HGAppDelegate.h */,
 				E5E71A7B1734171100F3FDBE /* HGAppDelegate.m */,
+				E56405C21747DA140000F28A /* HGPfad.h */,
+				E56405C31747DA140000F28A /* HGPfad.m */,
 				E5E71A721734171100F3FDBE /* Supporting Files */,
 			);
 			path = MalVersuch;
@@ -167,6 +172,7 @@
 			files = (
 				E5E71A781734171100F3FDBE /* main.m in Sources */,
 				E5E71A7C1734171100F3FDBE /* HGAppDelegate.m in Sources */,
+				E56405C41747DA140000F28A /* HGPfad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +289,7 @@
 				E5E71A871734171100F3FDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
