@@ -10,16 +10,23 @@
 
 @implementation HGPfad
 
-@synthesize ptarray;
+@synthesize pathref, lastloc;
 
 - (id)init
 {
     self = [super init];
-    
-    if (self)
-        ptarray = [[NSMutableArray alloc] init];
-    
+    if (self) {
+        pathref = CGPathCreateMutable();
+        lastloc.x = 0.0;
+        lastloc.y = 0.0;
+    }
     return self;
+}
+
+
+- (void)dealloc
+{
+    CGPathRelease(pathref);
 }
 
 @end

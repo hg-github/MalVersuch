@@ -1,5 +1,5 @@
 //
-//  HGPfad.h
+//  TouchViewController.h
 //  MalVersuch
 //
 //  Created by Herbert Gartner on 18.05.13.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HGPfad : NSObject
-
-@property (nonatomic, readonly) CGMutablePathRef pathref;
-@property (nonatomic) CGPoint lastloc;
+@interface TouchViewController : UIViewController
 
 @end
