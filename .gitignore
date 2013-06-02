@@ -3,6 +3,7 @@
 *~.nib
 DerivedData/
 build/
-xcuserdata/**/*
-!xcuserdata/**/xcschemes/*
+xcuserdata
+# xcuserdata/**/*
+# !xcuserdata/**/xcschemes/*
 *.moved-aside
