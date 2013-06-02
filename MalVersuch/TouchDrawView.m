@@ -72,6 +72,7 @@
         HGPfad *pfad = [strokesInProcess objectForKey:key];
         CGPoint loc = [touch locationInView:self];
         CGPathAddLineToPoint([pfad pathref], NULL, loc.x, loc.y);
+        // NSLog(@"touch %@ moved %f, %f", key, loc.x, loc.y);
     }
     [self setNeedsDisplay];
 }
